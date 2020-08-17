@@ -1,6 +1,7 @@
 .row-header{
     margin: 0px auto;
     padding: 0px auto;
+    
 
 }
 .row-content{
@@ -20,8 +21,15 @@
     background: #9575CD;
     color: floralwhite;
 }
-.address{
+address{
     font-size: 80%;
     margin: 0px;
     color: #0f0f0f;
+}
+body{
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+.navbar-dark{
+    background: #512Da8;
 }
