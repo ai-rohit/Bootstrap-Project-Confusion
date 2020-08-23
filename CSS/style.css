@@ -1,3 +1,6 @@
+*{
+    margin: 0px;
+}
 .row-header{
     margin: 0px auto;
     padding: 0px auto;
@@ -32,4 +35,13 @@ body{
 }
 .navbar-dark{
     background: #512Da8;
+}
+.reserve-button{
+    color: floralwhite;
+    font-size: 15px;
+    font-weight: bold;
+   
+}
+@media (max-width:767px) and (min-width:567px){
+    .reserve-button{width: 130px;}
 }

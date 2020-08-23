@@ -18,7 +18,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <a class="navbar-brand mr-auto" href="#"> <img src="img/logo.png" heigh="30" width="41"></a>
+            <a class="navbar-brand mr-auto" href="#"> <img src="img/logo.png" height="30" width="41"></a>
 
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
@@ -39,8 +39,12 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
+                <div class="col-12 col-sm-3 align-self-center">
                     <img src="img/logo.png" class="img-fluid">
+                </div>
+
+                <div class="col-12 col-sm-3 align-self-center mt-3">
+                    <a class="reserve-button btn btn-block btn-sm bg-warning active" role="button" href="#card-form">Reserve Table</a>
                 </div>
             </div>
         </div>
@@ -97,7 +101,45 @@
                 
             </div>
         </div>
+
+        <div class="row justify-content-center">
+
+            <div class="col-12 col-sm-8 mt-3 mb-3">
+                <div class="card" id="card-form">
+                    <h3 class="card-header bg-warning">Reserve a Table</h3>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group row">
+                                <label for="numofGuests" class="col-sm-4 col-form-label">Number of Guests</label>
+                                <div class="col-sm-8 mb-3">
+                                    <label class="radio-inline mr-3"><input type="radio" name="optradio"> 1</label>
+                                    <label class="radio-inline mr-3"><input type="radio" name="optradio"> 2</label>
+                                    <label class="radio-inline mr-3"><input type="radio" name="optradio"> 3</label>
+                                    <label class="radio-inline mr-3"><input type="radio" name="optradio"> 4</label>
+                                    <label class="radio-inline mr-3"><input type="radio" name="optradio"> 5</label>
+                                    <label class="radio-inline mr-3"><input type="radio" name="optradio"> 6</label>
+                                </div>
+        
+                                <label for="date" class="col-sm-4 col-form-label mt-3">Date and Time</label>
+                                <div class="col-12 col-sm-4 mt-3">
+                                    <input type="text" class="form-control" id="date" name="date" placeholder="Date">
+                                </div>
+                                <div class="col-12 col-sm-4 mt-3">
+                                    <input type="text" class="form-control" id="date" name="time" placeholder="Time">
+                                </div>
+        
+                                <div class="offset-sm-4 col-12">
+                                    <button type="submit" class="btn btn-primary mt-4">Reserve</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    
 
     <footer class="footer">
         <div class="container">
