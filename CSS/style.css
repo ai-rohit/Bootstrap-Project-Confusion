@@ -45,3 +45,10 @@ body{
 @media (max-width:767px) and (min-width:567px){
     .reserve-button{width: 130px;}
 }
+
+.tab-content{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
